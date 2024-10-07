@@ -1,0 +1,151 @@
+@font-face {
+    font-family: fontebrutal;
+    src: url(fonte/OldeEnglish.ttf)
+}
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 200px;
+    font-family: fontebrutal;
+    font-size:80px;
+    background-color: #000000a4;
+    
+}
+
+header h1{    background-image: url(https://i.gifer.com/1JBz.gif);
+background-size: cover;
+color: transparent;
+font-weight: 900;
+-webkit-background-clip: text;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 10px 50px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+#biografias{
+    text-align: center;
+    margin: 5em;
+    line-height: 3.5;
+}
+
+#intro{
+    text-align: center;
+    display: flex; 
+}
+
+body{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+table{
+    border: 1px #00000;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-collapse: separate;
+    
+}
+
+th,
+td{
+    border: 3px rgb(rgb(0, 0, 0), rgb(0, 0, 0), blue) solid;
+    padding: 3px;
+    background-color: #707070;
+    color: rgb(255, 0, 0);}
+
+th{
+    background-color: #000000;
+    color: rgb(255, 0, 51);
+}
+
+    h2{
+    text-align: center;
+    color: #000000;
+}
+
+img{
+    height: 100px
+    border-color: #000000;
+    border: solid;
+}
+
+p{
+    text-align: center;
+}
+
+.intro {
+    font-size: 150%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 30vh;
+}
+
+#galeria{
+    padding: 10%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#galeria h2{
+    text-align: left;
+    
+}
+
+
+#contato{
+    text-align: center;
+}
+
+#biografias{
+    background-color: #707070;
+    width: 100%;
+    margin-left: 0%;
+}
+
